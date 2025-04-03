@@ -1,6 +1,6 @@
 import pandas as pd
 
-dataset = pd.read_csv('cityu10c_train_dataset.csv')
+dataset = pd.read_csv('riskscore')
 dataset.head()
 
 features = ['Age', 'AnnualIncome', 'CreditScore', 'EmploymentStatus', 'EducationLevel', 'LoanAmount', 'LoanDuration']
